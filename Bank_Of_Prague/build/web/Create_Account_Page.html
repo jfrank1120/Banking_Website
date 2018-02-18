@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create An Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <center>
+            <h2> Create a new Account </h2>
+            <form action="http://localhost:8080/Bank_Of_Prague/Bank_Backend.jsp" method="GET">
+                <input type="text" name="username" value="Username">
+                <input type="password" name="password" value="Password">
+                </BR>
+                </BR>
+                <input type="text" name="f_name"   value="First Name">
+                <input type="text" name="l_name"   value="Last Name">
+                <input type="text" name="address"  value="Addresss">
+                </BR>
+                </BR>
+                <h3> Accounts You Would Like to Open </h3>
+                <input type="checkbox"  name="checkingAcct"> Checking Account
+                <input type="checkbox"  name="savingsAcct"> Savings Account
+                </BR>
+                </BR>
+                <INPUT type="submit" value="Submit">
+                <INPUT type="reset" value="Reset">
+        </form>
+        </div>
+    </body>
+</html>
